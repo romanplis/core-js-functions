@@ -18,7 +18,7 @@
  *
  */
 function getCurrentFunctionName() {
-  throw new Error('Not implemented');
+  return 'getCurrentFunctionName';
 }
 
 /**
@@ -90,8 +90,6 @@ function getPowerFunction(/* exponent */) {
 function getPolynom(/* ...coefficients */) {
   throw new Error('Not implemented');
 }
-
-
 
 /**
  * Memoizes passed function and returns function
